@@ -1,0 +1,20 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  color: #343a40;
+}
+
+.container {
+  padding-top: 30px;
+}
+
+form .invalid-feedback {
+  display: none;
+}
+
+form input.is-invalid ~ .invalid-feedback {
+  display: block;
+}
